@@ -1,0 +1,65 @@
+
+
+.App {
+  margin: 0;
+  padding-top: 20px;
+  /* text-align: center; */
+  min-height: 400px;
+  background-color: #afd275;
+  
+}
+
+.deleteBtn,
+.editBtn {
+  cursor: pointer;
+  font-size: large;
+}
+
+
+.add-modal,
+.edit-modal {
+  min-height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  
+}
+.edit-modal-child{
+  font-size: larger;
+  color: red;
+}
+.edit-modal-child-icon{
+  font-size: xx-large;
+}
+.edit-input,
+.header-input,
+.text-input {
+  display: flex;
+  align-items: center
+}
+
+input {
+  margin-right: 15px !important;
+  outline: none ;
+  border-radius: 4px;
+  padding: 10px;
+  border: 1px solid #afd275;
+  box-shadow: 5px 1px 10px #c5c5c5 ;
+}
+
+#edit-header{
+  margin-right: 44px !important
+}
+
+#edit-name {
+  margin-right: 38px !important
+}
+
+textarea {
+  margin-right: 22px !important;
+  outline: none;
+  border-radius: 4px;
+  width: 400px;
+  border: 1px solid #afd275;
+  box-shadow: 5px 1px 10px #c5c5c5 ;
+}
